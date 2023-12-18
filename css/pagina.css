@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1vw;
+  font-family: Roboto;
+}
+body {
+  background-color: bisque;
+}
+h2 {
+  color: #00005d;
+  font-size: 2vw;
+  text-align: center;
+  padding: 20px;
+}
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+header img {
+  width: 30vw;
+  height: 40vh;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 5vw;
+  color: #00005d;
+}
+h1 span {
+  font-size: 5vw;
+  color: #990000;
+}
+/* ----------------------------------- NAV ---------------------------------- */
+nav {
+  position: sticky;
+  top: 0;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+  background-color: darkgrey;
+  padding: 5px;
+}
+nav a {
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  font-size: 15px;
+  color: #00005d;
+  transition: 0.5s;
+}
+.active {
+  background-color: #d48a01;
+  border-radius: 3px;
+  padding: 3px;
+}
+nav img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+/* ---------------------------------- MAIN ---------------------------------- */
+/* MIGAS DE PAN */
+.migas-pan {
+  background-color: darkgrey;
+  padding: 5px;
+}
+.migas-pan a,
+.migas-pan span {
+  text-decoration: none;
+  color: white;
+}
+.migas-pan a:hover {
+  font-size: 1.1vw;
+  color: #00005d;
+  transition: 0.5s;
+}
+/* CARTAS */
+.cartas h4 {
+  color: gray;
+  padding: 10px;
+}
+figure {
+  float: left;
+  border: 1px solid #3e3e3e;
+  border-radius: 5px;
+  width: 33%;
+}
+.cartas figure img {
+  height: 50vh;
+  width: 100%;
+}
+.cartas p {
+  padding: 20px 10px;
+}
+.cartas div {
+  background-color: #ffdfa3;
+  border: 1px solid orange;
+  padding: 5px 0;
+}
+.cartas div a {
+  color: #ff5900;
+  text-decoration: none;
+  margin: 0px 10em;
+}
+/* TABLA */
+
+/* MEDIAS */
+.medias img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.medias article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* GALERIA */
+.galeria p {
+  padding-left: 50px;
+}
+.fila-arriba {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fila-arriba img {
+  width: 100%;
+  height: 35vh;
+}
+.fila-abajo {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.fila-abajo img {
+  width: 100%;
+  height: 40vh;
+}
+
+/* --------------------------------- FOOTER --------------------------------- */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgrey;
+  padding: 20px;
+}
+footer :first-child {
+  display: flex;
+  align-items: center;
+}
+footer img {
+  height: 40px;
+  width: 40px;
+}
+.redes :nth-child(2) {
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+}
+
+.redes :last-child {
+  background-color: #990000;
+  text-decoration: none;
+  color: white;
+}
